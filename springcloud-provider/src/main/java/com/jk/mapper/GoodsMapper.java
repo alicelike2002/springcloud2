@@ -9,12 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
-/**
- * @program: springcloud2
- * @Date: 2019/5/13 19:23
- * @Author: 任豪杰
- * @Description:
- */
+
 public interface GoodsMapper {
     @Select("select * from t_goods")
     List<GoodsBean> queryGoodsList();
